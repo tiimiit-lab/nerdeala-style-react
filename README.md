@@ -19,6 +19,7 @@
 
 ## Glosario
 
+- [📕 Storybook](https://tiimiit-lab.github.io/nerdearla-style-react/)
 - [📝 Requerimientos básicos](#basic-requirements)
 - [💻 Scripts](#scripts)
 - [🔀 Workflows](#workflows)
