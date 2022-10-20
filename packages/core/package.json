@@ -1,6 +1,6 @@
 {
   "name": "@nerdearla-style-react/core",
-  "version": "0.0.0",
+  "version": "0.1.0-beta.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -17,7 +17,7 @@
     "clean": "rm -rf .turbo node_modules dist"
   },
   "devDependencies": {
-    "@nerdearla-style-react/tsconfig": "^0.0.0",
+    "@nerdearla-style-react/tsconfig": "^0.0.1-beta.0",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
     "eslint": "^8.15.0",
