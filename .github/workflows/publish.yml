@@ -90,8 +90,6 @@ jobs:
           npm run publish:pkgs
 
       - name: "📔 Deploy Storybook"
-        uses: JamesIves/github-pages-deploy-action@3.6.2
-        with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: apps/docs/storybook-static
+        run: yarn --cwd apps/docs deploy-storybook --ci
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
