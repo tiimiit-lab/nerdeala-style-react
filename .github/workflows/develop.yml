@@ -61,3 +61,11 @@ jobs:
         run: yarn test
         env:
           NODE_ENV: 'test'
+
+      - name: "📔 Deploy Storybook"
+        uses: JamesIves/github-pages-deploy-action@3.6.2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: apps/docs/storybook-static
+          CLEAN: true
