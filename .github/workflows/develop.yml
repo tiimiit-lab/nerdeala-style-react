@@ -63,9 +63,9 @@ jobs:
           NODE_ENV: 'test'
 
       - name: "📔 Deploy Storybook"
-        uses: JamesIves/github-pages-deploy-action@3.6.2
+        uses: ad-m/github-push-action@v0.5.0
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: apps/docs/storybook-static
-          CLEAN: true
+          github_token: ${{ secrets.GH_TOKEN }}
+          branch: gh-pages
+          directory: ./apps/docs/storybook-static
+          force: true
