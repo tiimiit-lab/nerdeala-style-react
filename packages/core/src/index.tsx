@@ -5,4 +5,5 @@ export * from './Hooks';
 
 /* COMPONENTS */
 export { default as Example } from './Example';
+export { default as Button } from './Button';
 //-- PLOP-COMPONENTS-EXPORTS --
