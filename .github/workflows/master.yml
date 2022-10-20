@@ -68,4 +68,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           BRANCH: gh-pages
           FOLDER: apps/docs/storybook-static
-          CLEAN: true
