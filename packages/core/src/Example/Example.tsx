@@ -11,4 +11,5 @@ const Example: React.FC<ExampleProps> = ({ children, ...rest }) => {
 };
 
 Example.displayName = 'Example';
+
 export default Example;
